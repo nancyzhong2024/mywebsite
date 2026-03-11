@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>高中物理知识体系</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-effects">
+        <div class="grid-overlay"></div>
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+        <div class="glow-orb orb-3"></div>
+    </div>
+
+    <div class="container">
+        <header class="main-header">
+            <div class="logo">
+                <span class="logo-icon">⚛</span>
+                <h1>高中物理知识体系</h1>
+            </div>
+            <div class="header-line"></div>
+        </header>
+
+        <div class="main-content">
+            <aside class="sidebar">
+                <div class="sidebar-header">
+                    <span class="chapter-icon">📚</span>
+                    <h2>章节导航</h2>
+                </div>
+                <nav class="chapter-nav">
+                    <ul id="chapterList">
+                        <li class="chapter-item active" data-chapter="1">
+                            <span class="chapter-number">01</span>
+                            <span class="chapter-title">运动的描述与匀变速直线运动</span>
+                        </li>
+                        <li class="chapter-item" data-chapter="2">
+                            <span class="chapter-number">02</span>
+                            <span class="chapter-title">相互作用——力</span>
+                        </li>
+                        <li class="chapter-item" data-chapter="3">
+                            <span class="chapter-number">03</span>
+                            <span class="chapter-title">牛顿运动定律</span>
+                        </li>
+                        <li class="chapter-item" data-chapter="4">
+                            <span class="chapter-number">04</span>
+                            <span class="chapter-title">曲线运动与万有引力</span>
+                        </li>
+                        <li class="chapter-item" data-chapter="5">
+                            <span class="chapter-number">05</span>
+                            <span class="chapter-title">机械能及其守恒定律</span>
+                        </li>
+                        <li class="chapter-item" data-chapter="6">
+                            <span class="chapter-number">06</span>
+                            <span class="chapter-title">静电场</span>
+                        </li>
+                        <li class="chapter-item" data-chapter="7">
+                            <span class="chapter-number">07</span>
+                            <span class="chapter-title">恒定电流</span>
+                        </li>
+                        <li class="chapter-item" data-chapter="8">
+                            <span class="chapter-number">08</span>
+                            <span class="chapter-title">磁场</span>
+                        </li>
+                        <li class="chapter-item" data-chapter="9">
+                            <span class="chapter-number">09</span>
+                            <span class="chapter-title">电磁感应</span>
+                        </li>
+                        <li class="chapter-item" data-chapter="10">
+                            <span class="chapter-number">10</span>
+                            <span class="chapter-title">交变电流与传感器</span>
+                        </li>
+                        <li class="chapter-item" data-chapter="11">
+                            <span class="chapter-number">11</span>
+                            <span class="chapter-title">热学（选修3-3）</span>
+                        </li>
+                        <li class="chapter-item" data-chapter="12">
+                            <span class="chapter-number">12</span>
+                            <span class="chapter-title">机械振动与机械波（选修3-4）</span>
+                        </li>
+                        <li class="chapter-item" data-chapter="13">
+                            <span class="chapter-number">13</span>
+                            <span class="chapter-title">光（选修3-4）</span>
+                        </li>
+                        <li class="chapter-item" data-chapter="14">
+                            <span class="chapter-number">14</span>
+                            <span class="chapter-title">原子物理与波粒二象性（选修3-5）</span>
+                        </li>
+                        <li class="chapter-item" data-chapter="15">
+                            <span class="chapter-number">15</span>
+                            <span class="chapter-title">物理实验</span>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
+
+            <main class="content-area">
+                <div class="content-wrapper">
+                    <!-- Chapter 1 -->
+                    <section class="chapter-content active" id="chapter-1">
+                        <div class="chapter-hero">
+                            <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=80" alt="运动与速度">
+                            <div class="hero-overlay">
+                                <span class="chapter-badge">第一章</span>
+                                <h2>运动的描述与匀变速直线运动</h2>
+                            </div>
+                        </div>
+                        <div class="chapter-body">
+                            <p>本章是整个高中物理的基石，主要引入了描述物体机械运动的基本物理量，如<strong>质点</strong>（理想化模型）、参考系、时间与时刻、位移与路程、速度与速率、加速度等核心概念。重点在于理解矢量（如位移、速度、加速度）与标量的区别，并熟练掌握匀变速直线运动的三大基本公式以及重要的推论（如平均速度公式、中间时刻瞬时速度公式等）。</p>
+                            <p>通过本章学习，学生需要建立起用物理语言精确描述物体运动的能力，并学会分析简单的运动问题，特别是对<strong>加速度</strong>这一连接运动与力的关键物理量的深入理解，为后续学习牛顿运动定律做好铺垫。</p>
+                            <div class="key-points">
+                                <h3>📌 重点内容</h3>
+                                <ul>
+                                    <li>质点与参考系的概念</li>
+                                    <li>位移与路程的区别</li>
+                                    <li>速度与加速度的定义</li>
+                                    <li>匀变速直线运动公式</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Chapter 2 -->
+                    <section class="chapter-content" id="chapter-2">
+                        <div class="chapter-hero">
+                            <img src="https://images.unsplash.com/photo-1636466497217-26a8cbeaf0aa?w=800&q=80" alt="力的相互作用">
+                            <div class="hero-overlay">
+                                <span class="chapter-badge">第二章</span>
+                                <h2>相互作用——力</h2>
+                            </div>
+                        </div>
+                        <div class="chapter-body">
+                            <p>本章聚焦于物体运动状态改变的原因——<strong>力</strong>。主要内容包括力的概念、力的图示、重力、弹力和摩擦力这三种常见性质力的产生条件、方向判断和大小的计算。重点难点在于摩擦力的分析，尤其是静摩擦力方向的判断和滑动摩擦力的计算。</p>
+                            <p>本章的核心是<strong>力的合成与分解</strong>（即矢量的运算法则——平行四边形定则），以及其特殊情况的处理。最后，引入了物体受力分析的一般方法，并讲解了共点力作用下物体的平衡条件，这是解决静力学问题的关键，也是连接动力学的重要桥梁。</p>
+                            <div class="key-points">
+                                <h3>📌 重点内容</h3>
+                                <ul>
+                                    <li>三种性质力：重力、弹力、摩擦力</li>
+                                    <li>力的合成与分解</li>
+                                    <li>平行四边形定则</li>
+                                    <li>共点力平衡条件</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Chapter 3 -->
+                    <section class="chapter-content" id="chapter-3">
+                        <div class="chapter-hero">
+                            <img src="https://images.unsplash.com/photo-1630707609980-1a558e60a3a3?w=800&q=80" alt="牛顿运动定律">
+                            <div class="hero-overlay">
+                                <span class="chapter-badge">第三章</span>
+                                <h2>牛顿运动定律</h2>
+                            </div>
+                        </div>
+                        <div class="chapter-body">
+                            <p>这是动力学的核心内容，揭示了力与运动的内在联系。<strong>牛顿第一定律</strong>（惯性定律）指出了物体具有惯性，并明确了力是改变物体运动状态的原因。<strong>牛顿第二定律</strong>（F=ma）则定量地建立了加速度与合外力、质量之间的关系，是本章乃至整个经典力学的核心公式。<strong>牛顿第三定律</strong>阐明了物体间力的相互作用性。</p>
+                            <p>本章的重点是掌握运用牛顿第二定律解决两类基本问题：已知受力情况求运动情况，以及已知运动情况求受力情况。难点在于对物体进行正确的受力分析，以及处理连接体问题和临界极值问题，深刻理解整体法与隔离法的应用。</p>
+                            <div class="key-points">
+                                <h3>📌 重点内容</h3>
+                                <ul>
+                                    <li>牛顿三大定律</li>
+                                    <li>F=ma 公式应用</li>
+                                    <li>受力分析方法</li>
+                                    <li>整体法与隔离法</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Chapter 4 -->
+                    <section class="chapter-content" id="chapter-4">
+                        <div class="chapter-hero">
+                            <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80" alt="曲线运动与万有引力">
+                            <div class="hero-overlay">
+                                <span class="chapter-badge">第四章</span>
+                                <h2>曲线运动与万有引力</h2>
+                            </div>
+                        </div>
+                        <div class="chapter-body">
+                            <p>本章将运动从直线拓展到曲线。首先介绍了曲线运动的速度方向与条件（合外力与速度不共线）。核心内容是<strong>运动的合成与分解</strong>思想（如小船过河、关联速度问题），以及两种重要的曲线运动模型：<strong>平抛运动</strong>（可分解为水平方向的匀速直线和竖直方向的自由落体）和<strong>匀速圆周运动</strong>（涉及线速度、角速度、周期、向心加速度、向心力等概念）。</p>
+                            <p>后半部分将圆周运动规律与<strong>万有引力定律</strong>相结合，推导并解释了天体（行星、卫星）的运动规律，包括开普勒三定律、卫星的发射与变轨、宇宙速度以及卫星的运行参数比较，建立了从地面到宇宙的运动图景。</p>
+                            <div class="key-points">
+                                <h3>📌 重点内容</h3>
+                                <ul>
+                                    <li>曲线运动条件</li>
+                                    <li>平抛运动规律</li>
+                                    <li>匀速圆周运动</li>
+                                    <li>万有引力定律</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Chapter 5 -->
+                    <section class="chapter-content" id="chapter-5">
+                        <div class="chapter-hero">
+                            <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&q=80" alt="机械能">
+                            <div class="hero-overlay">
+                                <span class="chapter-badge">第五章</span>
+                                <h2>机械能及其守恒定律</h2>
+                            </div>
+                        </div>
+                        <div class="chapter-body">
+                            <p>本章从能量角度审视物理过程，引入了<strong>功和功率</strong>的概念，明确了做功是能量转化的量度。核心内容围绕几种重要的能：动能、重力势能、弹性势能，并推导出<strong>动能定理</strong>（合外力做功等于动能变化量）。</p>
+                            <p>本章的灵魂是<strong>机械能守恒定律</strong>，阐明了在只有重力或弹力做功的系统内，动能与势能相互转化但总量保持不变的条件和用法。相比于运用牛顿定律解决复杂的多过程问题，能量观点往往能化繁为简，是物理学中一种重要的思维方法。</p>
+                            <div class="key-points">
+                                <h3>📌 重点内容</h3>
+                                <ul>
+                                    <li>功与功率</li>
+                                    <li>动能定理</li>
+                                    <li>机械能守恒定律</li>
+                                    <li>能量转化观点</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Chapter 6 -->
+                    <section class="chapter-content" id="chapter-6">
+                        <div class="chapter-hero">
+                            <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=80" alt="静电场">
+                            <div class="hero-overlay">
+                                <span class="chapter-badge">第六章</span>
+                                <h2>静电场</h2>
+                            </div>
+                        </div>
+                        <div class="chapter-body">
+                            <p>本章开始进入电磁学领域。首先从电荷、起电方式、电荷守恒定律入手，引入<strong>库仑定律</strong>描述点电荷间的相互作用。随后建立场的概念，用电场强度和电势这两个关键物理量分别从力的角度和能的角度描述静电场的性质，并理解电场线和等势面作为辅助工具的意义。</p>
+                            <p>重点内容包括带电粒子在电场中的加速和偏转（类平抛运动），以及电容器这一重要的电子元件的电容、充放电过程及其动态分析。本章概念抽象，需要学生完成从"实物"到"场"的思维跨越。</p>
+                            <div class="key-points">
+                                <h3>📌 重点内容</h3>
+                                <ul>
+                                    <li>库仑定律</li>
+                                    <li>电场强度与电势</li>
+                                    <li>带电粒子在电场中的运动</li>
+                                    <li>电容器</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Chapter 7 -->
+                    <section class="chapter-content" id="chapter-7">
+                        <div class="chapter-hero">
+                            <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=800&q=80" alt="恒定电流">
+                            <div class="hero-overlay">
+                                <span class="chapter-badge">第七章</span>
+                                <h2>恒定电流</h2>
+                            </div>
+                        </div>
+                        <div class="chapter-body">
+                            <p>本章研究电荷在导体中的定向移动形成的<strong>恒定电流</strong>。核心内容是构建直流电路的分析方法。首先掌握三个基本物理量：电流、电压、电阻，并理解部分电路欧姆定律（I=U/R）和电阻定律（R=ρL/S）。</p>
+                            <p>接着学习多用电表的改装原理以及滑动变阻器的两种接法（限流式、分压式）。最重要的部分是<strong>闭合电路的欧姆定律</strong>，它揭示了电源电动势、内阻、路端电压与外电阻的关系，是分析动态电路、电源功率和效率问题的基础。</p>
+                            <div class="key-points">
+                                <h3>📌 重点内容</h3>
+                                <ul>
+                                    <li>欧姆定律</li>
+                                    <li>电阻定律</li>
+                                    <li>闭合电路欧姆定律</li>
+                                    <li>电功率计算</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Chapter 8 -->
+                    <section class="chapter-content" id="chapter-8">
+                        <div class="chapter-hero">
+                            <img src="https://images.unsplash.com/photo-1636466497217-26a8cbeaf0aa?w=800&q=80" alt="磁场">
+                            <div class="hero-overlay">
+                                <span class="chapter-badge">第八章</span>
+                                <h2>磁场</h2>
+                            </div>
+                        </div>
+                        <div class="chapter-body">
+                            <p>本章研究磁场的性质及其与电流、运动电荷的相互作用。首先复习磁场的产生、磁感线、磁感应强度等基本概念。重点内容有两部分：一是<strong>安培力</strong>——磁场对通电导线的作用力（F=BIL），涉及大小计算和方向判断（左手定则）；二是<strong>洛伦兹力</strong>——磁场对运动电荷的作用力（f=qvB），它是带电粒子在匀强磁场中做匀速圆周运动的原因。</p>
+                            <p>本章的难点是带电粒子在复合场（如重力场、电场、磁场共存）中的运动分析，以及与现代科技应用（如质谱仪、回旋加速器、速度选择器）的结合。</p>
+                            <div class="key-points">
+                                <h3>📌 重点内容</h3>
+                                <ul>
+                                    <li>安培力 F=BIL</li>
+                                    <li>洛伦兹力 f=qvB</li>
+                                    <li>左手定则</li>
+                                    <li>带电粒子在磁场中的运动</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Chapter 9 -->
+                    <section class="chapter-content" id="chapter-9">
+                        <div class="chapter-hero">
+                            <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800&q=80" alt="电磁感应">
+                            <div class="hero-overlay">
+                                <span class="chapter-badge">第九章</span>
+                                <h2>电磁感应</h2>
+                            </div>
+                        </div>
+                        <div class="chapter-body">
+                            <p>本章揭示了"<strong>磁生电</strong>"的条件和规律。核心内容是<strong>法拉第电磁感应定律</strong>，它定量计算了感应电动势的大小（E=nΔΦ/Δt）。与之配套的是<strong>楞次定律</strong>，用于判断感应电流的方向（增反减同、来拒去留）。</p>
+                            <p>本章重点分析两类基本模型：动生电动势（导体切割磁感线，E=BLv）和感生电动势（磁场变化产生涡旋电场）。难点在于电磁感应中的综合问题，如与电路知识结合的含容电路、与力学知识结合的导体棒运动分析。</p>
+                            <div class="key-points">
+                                <h3>📌 重点内容</h3>
+                                <ul>
+                                    <li>法拉第电磁感应定律</li>
+                                    <li>楞次定律</li>
+                                    <li>动生电动势 E=BLv</li>
+                                    <li>电磁感应综合问题</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Chapter 10 -->
+                    <section class="chapter-content" id="chapter-10">
+                        <div class="chapter-hero">
+                            <img src="https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800&q=80" alt="交变电流">
+                            <div class="hero-overlay">
+                                <span class="chapter-badge">第十章</span>
+                                <h2>交变电流与传感器</h2>
+                            </div>
+                        </div>
+                        <div class="chapter-body">
+                            <p>本章将电流从直流拓展到交流。首先掌握正弦式交变电流的产生原理（线圈在匀强磁场中绕垂直于磁场的轴匀速转动），并理解描述交变电流的四个值：瞬时值、峰值、有效值、平均值，其中<strong>有效值</strong>的理解和计算是重点。</p>
+                            <p>核心内容是<strong>变压器</strong>的工作原理（电磁感应中的互感现象）及其基本规律（电压、电流与匝数的关系），以及电能的远距离输送问题（为什么采用高压输电）。最后，简单介绍了传感器这一能感知非电学量并将其转化为电学量的器件。</p>
+                            <div class="key-points">
+                                <h3>📌 重点内容</h3>
+                                <ul>
+                                    <li>交变电流四值</li>
+                                    <li>变压器原理</li>
+                                    <li>高压输电</li>
+                                    <li>传感器应用</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Chapter 11 -->
+                    <section class="chapter-content" id="chapter-11">
+                        <div class="chapter-hero">
+                            <img src="https://images.unsplash.com/photo-1535083783855-76ae62b2914e?w=800&q=80" alt="热学">
+                            <div class="hero-overlay">
+                                <span class="chapter-badge">第十一章</span>
+                                <h2>热学（选修3-3）</h2>
+                            </div>
+                        </div>
+                        <div class="chapter-body">
+                            <p>本章从微观和宏观两个角度研究热现象。首先用<strong>分子动理论</strong>（物质由大量分子组成、分子永不停息做无规则热运动、分子间存在相互作用力）建立微观模型，并理解温度和内能（所有分子动能和分子势能之和）的微观含义。</p>
+                            <p>重点掌握<strong>理想气体状态方程</strong>（pV/T = 恒定），并能够分析气体的等温、等容、等压变化过程（玻意耳定律、查理定律、盖-吕萨克定律）。同时，学习用能量守恒的观点分析热现象——<strong>热力学第一定律</strong>（ΔU = Q + W），以及涉及热传递方向的热力学第二定律。</p>
+                            <div class="key-points">
+                                <h3>📌 重点内容</h3>
+                                <ul>
+                                    <li>分子动理论</li>
+                                    <li>理想气体状态方程</li>
+                                    <li>热力学第一定律</li>
+                                    <li>热力学第二定律</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Chapter 12 -->
+                    <section class="chapter-content" id="chapter-12">
+                        <div class="chapter-hero">
+                            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" alt="机械振动与机械波">
+                            <div class="hero-overlay">
+                                <span class="chapter-badge">第十二章</span>
+                                <h2>机械振动与机械波（选修3-4）</h2>
+                            </div>
+                        </div>
+                        <div class="chapter-body">
+                            <p>本章研究一种特殊的运动形式——<strong>振动</strong>，以及振动在介质中的传播——<strong>波</strong>。首先以简谐运动（如弹簧振子、单摆）为模型，学习描述振动的物理量（振幅、周期、频率、相位）和回复力的概念，并掌握<strong>单摆周期公式</strong>。</p>
+                            <p>在波动部分，重点理解波的形成机理、横波与纵波的区别，以及描述波的物理量（波长、波速、周期）及其关系v=λ/T。核心难点是波的图像及其应用（判断质点振动方向），以及波的干涉、衍射等特有现象和多普勒效应。</p>
+                            <div class="key-points">
+                                <h3>📌 重点内容</h3>
+                                <ul>
+                                    <li>简谐运动</li>
+                                    <li>单摆周期公式</li>
+                                    <li>波的图像</li>
+                                    <li>波的干涉与衍射</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Chapter 13 -->
+                    <section class="chapter-content" id="chapter-13">
+                        <div class="chapter-hero">
+                            <img src="https://images.unsplash.com/photo-1518640467707-6811f4a6ab73?w=800&q=80" alt="光学">
+                            <div class="hero-overlay">
+                                <span class="chapter-badge">第十三章</span>
+                                <h2>光（选修3-4）</h2>
+                            </div>
+                        </div>
+                        <div class="chapter-body">
+                            <p>本章研究光的传播规律和本性。首先复习几何光学部分：光的反射定律和折射定律（特别是折射率n = c/v = sinθ1/sinθ2），以及全反射现象和临界角公式。随后进入物理光学领域，学习光的<strong>干涉</strong>（杨氏双缝干涉实验，明暗条纹条件）、<strong>衍射</strong>（光通过狭缝或小孔后的现象）和<strong>偏振</strong>现象，这些现象证明了光具有波动性，并且是横波。</p>
+                            <p>本章内容从光线模型逐步深入到光的波动模型，最后简单介绍激光的特性及其应用。</p>
+                            <div class="key-points">
+                                <h3>📌 重点内容</h3>
+                                <ul>
+                                    <li>光的折射定律</li>
+                                    <li>全反射现象</li>
+                                    <li>光的干涉与衍射</li>
+                                    <li>光的偏振</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Chapter 14 -->
+                    <section class="chapter-content" id="chapter-14">
+                        <div class="chapter-hero">
+                            <img src="https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800&q=80" alt="原子物理">
+                            <div class="hero-overlay">
+                                <span class="chapter-badge">第十四章</span>
+                                <h2>原子物理与波粒二象性（选修3-5）</h2>
+                            </div>
+                        </div>
+                        <div class="chapter-body">
+                            <p>本章是物理学从经典向量子、微观领域跨越的章节。首先介绍<strong>黑体辐射</strong>和普朗克的量子假说，以及<strong>光电效应</strong>现象和爱因斯坦的光电效应方程（Ek = hν - W₀），揭示了光的粒子性，即光具有<strong>波粒二象性</strong>。</p>
+                            <p>接着，通过卢瑟福的α粒子散射实验引出原子的核式结构，再过渡到<strong>玻尔的氢原子理论</strong>（能级假说，跃迁规律：hν = Eₘ - Eₙ），解释了原子光谱的线状特征。最后介绍原子核的组成、天然放射现象、衰变规律、核反应方程的书写以及质量亏损和爱因斯坦<strong>质能方程</strong>（E=mc²）在核能计算中的应用。</p>
+                            <div class="key-points">
+                                <h3>📌 重点内容</h3>
+                                <ul>
+                                    <li>光电效应方程</li>
+                                    <li>玻尔原子模型</li>
+                                    <li>核反应方程</li>
+                                    <li>质能方程 E=mc²</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Chapter 15 -->
+                    <section class="chapter-content" id="chapter-15">
+                        <div class="chapter-hero">
+                            <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&q=80" alt="物理实验">
+                            <div class="hero-overlay">
+                                <span class="chapter-badge">第十五章</span>
+                                <h2>物理实验</h2>
+                            </div>
+                        </div>
+                        <div class="chapter-body">
+                            <p>物理实验贯穿于整个高中物理学习过程，是培养学生科学探究能力的重要途径。本章是对所有实验思想、方法、仪器和操作的总结。内容可分为<strong>基础仪器使用</strong>（如螺旋测微器、游标卡尺、多用电表的读数）和<strong>核心分组实验</strong>（如研究匀变速直线运动、验证牛顿第二定律、验证机械能守恒、描绘小灯泡伏安特性曲线、测定电源电动势和内阻、用单摆测重力加速度、测折射率、验证动量守恒定律等）。</p>
+                            <p>重点掌握实验原理、实验步骤、数据处理方法（如逐差法、图像法）和系统误差、偶然误差的分析与减小措施。</p>
+                            <div class="key-points">
+                                <h3>📌 重点内容</h3>
+                                <ul>
+                                    <li>基本仪器使用方法</li>
+                                    <li>实验原理分析</li>
+                                    <li>数据处理方法</li>
+                                    <li>误差分析</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
